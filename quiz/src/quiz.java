@@ -1,15 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
-//MUDA O ENDEREÇO DA PACKAGE
-
+package qz;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
-//MUDA O NOME "quiz" PRO ARQUIVO
 public class quiz extends JFrame implements ActionListener {
     
     JLabel label;
@@ -120,7 +114,7 @@ public class quiz extends JFrame implements ActionListener {
     }
 
 
-    public void main(String[] args){
+    public static void main(String[] args){
         
         new quiz("Quiz bom demaize");
         
