@@ -95,7 +95,7 @@ public class quiz extends JFrame implements ActionListener {
     
     boolean checkAns(){
         if(current==0){
-            return (radioButtons[2].isSelected());
+            return (radioButtons[1].isSelected());
         }
         if(current==1){
             return (radioButtons[2].isSelected());
